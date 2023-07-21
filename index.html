@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Personal Portfolio</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navmenu">
+        <ul class="nav-link">
+          <li>
+            <a href="#home">Home</a>
+          </li>
+
+          <li>
+            <a href="#about">About</a>
+          </li>
+
+          <li>
+            <a href="#work">Work</a>
+          </li>
+
+          <li>
+            <a href="#resume">Resume</a>
+          </li>
+
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!--  home section -->
+    <section id="home">
+      <div>
+        <h1 class="ws-title">Home</h1>
+        <iframe
+          width="420"
+          height="315"
+          src="https://www.youtube.com/embed/QYlSkzS_hXM"
+        >
+        </iframe>
+      </div>
+    </section>
+
+    <!--  about section -->
+    <section id="about">
+      <div>
+        <h1 class="ws-title">About</h1>
+        <p class="ws-parag">
+          At Gomycode, our goal is to simplify technology learning for
+          everyone.<br />
+          We offer innovative education solutions to help you learn, practice
+          and achieve your dreams.<br />
+          <br />
+          Our journey began when we opened our doors in a coworking space and
+          won MIT's prestigious BlooMMasters program in 2017.<br />
+          Since then, we've educated over 15,000 students and partnered with
+          over 100 organizations in 8 different countries.
+        </p>
+      </div>
+    </section>
+
+    <!--  work section -->
+    <section id="work">
+      <div>
+        <h1 class="ws-title">Work</h1>
+        <span class="ws-desc"><b>Your schedule</b></span><br>
+        <table class="ws-plan">
+          <tr>
+            <th></th>
+            <th>beginning hour</th>
+            <th>end time</th>
+          </tr>
+          <tr>
+            <td>Tuesday</td>
+            <td>9h00</td>
+            <td>13h00</td>
+          </tr>
+          <tr>
+            <td>Wednesday</td>
+            <td>14h00</td>
+            <td>18h00</td>
+          </tr>
+          <tr>
+            <td>Friday</td>
+            <td>9h00</td>
+            <td>13h00</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+
+    <!--  resume section -->
+    <section id="resume">
+      <div>
+        <h1 class="ws-title">Resume</h1>
+        <form>
+          <label for="fname">First name:</label><br />
+          <input type="text" class="ws-form" id="fname" name="fname" /><br />
+          <label for="lname">Last name:</label><br />
+          <input type="text" class="ws-form" id="lname" name="lname" /><br />
+          <label for="gender">gender:</label><br />
+          <select id="gender" class="ws-form" name="gender">
+            <option>Male</option>
+            <option>Female</option></select
+          ><br />
+          <label for="avatar">Photo:</label><br />
+          <input
+            type="file"
+            class="ws-form"
+            id="avatar"
+            name="avatar"
+            accept="image/png, image/jpeg"
+          />
+          <br />
+          <input type="submit" class="ws-btn" value="Send" />
+        </form>
+      </div>
+    </section>
+
+    <!--  contact section -->
+    <section id="contact">
+      <div>
+        <h1 class="ws-title">Contact</h1>
+        <img src="gomycode.jpg" alt="Gomycode" />
+        <form>
+          <label for="lemail">Email:</label><br />
+          <input type="email" class="ws-form" id="lemail" name="lemail" /><br />
+          <label for="question">Question:</label><br />
+          <textarea class="ws-form" widht="300"> </textarea>
+          <br />
+          <input type="submit" class="ws-btn" value="Send" />
+        </form>
+      </div>
+    </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
